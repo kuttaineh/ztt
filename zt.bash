@@ -4,7 +4,7 @@
 
 # Data files location:
 
-	dfl="$HOME/Documents/code/typer/Zeke"
+	dfl="$HOME/ztt"
 	thr="$dfl/3s.txt"
 	four="$dfl/4s.txt"
 	five="$dfl/5s.txt"
