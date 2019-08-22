@@ -1,0 +1,1 @@
+GSSpeechServer && exec bash $HOME/ztt/zt.bash
