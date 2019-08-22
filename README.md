@@ -8,5 +8,6 @@ $ chmod +x tt
 $ sudo mv tt /usr/local/bin
 ```
 To run, simply type:
-```$ tt
+```
+$ tt
 ```
