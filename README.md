@@ -1,7 +1,7 @@
 # ztt
 a typing tutor which speaks and gives positive feedback
 
-Installation:
+Installation, from a terminal type:
 ```
 $ git clone https://github.com/kuttaineh/ztt.git
 $ cd ztt
