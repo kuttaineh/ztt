@@ -26,3 +26,7 @@ To install git on windows https://gitforwindows.org
 git clone https://github.com/kuttaineh/ztt.git
 ztt/zt.bash
 ```
+image:: https://github.com/kuttaineh/ztt/blob/master/gitforwindows.png
+  :height: 371px
+  :width: 581 px
+  :scale: 50 %
