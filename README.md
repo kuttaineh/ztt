@@ -6,7 +6,7 @@ Installation, from a terminal type:
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
 ```
-MacOS & Windows ONLY:
+MacOS ONLY:
 ```
 echo "bash $HOME/ztt/zt.bash">tt
 ```
