@@ -6,7 +6,7 @@ Installation, from a terminal type:
 $ git clone https://github.com/kuttaineh/ztt.git
 $ cd ztt
 ```
-MacOS ONLY:
+MacOS & Windows ONLY:
 ```
 $ echo "bash $HOME/ztt/zt.bash">tt
 ```
@@ -18,3 +18,5 @@ To run, simply type:
 ```
 $ tt
 ```
+
+To install git on windows https://gitforwindows.org
