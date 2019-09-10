@@ -19,8 +19,8 @@ To run on Linux & MacOS, simply type:
 tt
 ```
 On Windows:
-```
-zt.bash
-```
 
 To install git on windows https://gitforwindows.org
+```
+ztt/zt.bash
+```
