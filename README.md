@@ -29,7 +29,3 @@ ztt/zt.bash
 
 
 ![Git for Windows](gitforwindows.png)
-image:: https://github.com/kuttaineh/ztt/blob/master/gitforwindows.png
-  :height: 371px
-  :width: 581 px
-  :scale: 50 %
