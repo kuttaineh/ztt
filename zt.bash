@@ -37,7 +37,7 @@
 
 # What prompt to display:
 
-	prompt="Now how many letters [ 4 5 or 6 ]? "
+	prompt="How many letters [ 1 2 3 4 5 or 6 ]? "
 
 comm "Zeke's Typing Tutor" && echo && sleep 3
 request="Type your name"; say $request &
