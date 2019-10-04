@@ -5,6 +5,8 @@
 # Data files location:
 
 	dfl="$HOME/ztt"
+	one="$dfl/1s.txt"
+	two="$dfl/2s.txt"
 	thr="$dfl/3s.txt"
 	four="$dfl/4s.txt"
 	five="$dfl/5s.txt"
@@ -49,6 +51,24 @@ while read -n1 -s -p "$prompt "; do
 randline=$RANDOM
 
   case $REPLY in
+    1) echo; echo -n "One letter word: "
+
+	setrange "$one"
+	oneword="`sed "${randline}q;d" $one`"
+	comm "$oneword"; echo
+	read -r -p "  Type the word: "
+	check "$REPLY" "$oneword"
+	;; 		# end case 1
+
+    2) echo; echo -n "Two letter word: "
+
+	setrange "$two"
+	twoword="`sed "${randline}q;d" $two`"
+	comm "$twoword"; echo
+	read -r -p "  Type the word: "
+	check "$REPLY" "$twoword"
+	;;		# end case 2
+
     3) echo; echo -n "Three letter word: "
 
 	setrange "$thr"
