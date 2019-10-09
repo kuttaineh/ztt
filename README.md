@@ -8,23 +8,23 @@ cd ztt
 ```
 MacOS ONLY:
 ```
-echo "bash $HOME/ztt/zt.bash">tt
+echo "bash $HOME/ztt/ztt.bash">ztt
 ```
 Both Linux & MacOS:
 ```
-chmod +x tt
-sudo mv tt /usr/local/bin
+chmod +x ztt
+sudo mv ztt /usr/local/bin
 ```
 To run on Linux & MacOS, simply type:
 ```
-tt
+ztt
 ```
 Windows:
 
 To install git on windows https://gitforwindows.org
 ```
 git clone https://github.com/kuttaineh/ztt.git
-ztt/zt.bash
+ztt/zzt.bash
 ```
 
 
