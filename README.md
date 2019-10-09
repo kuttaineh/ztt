@@ -13,7 +13,7 @@ echo "bash $HOME/ztt/ztt.bash">ztt
 Both Linux & MacOS:
 ```
 chmod +x ztt
-sudo mv ztt /usr/local/bin
+sudo cp ztt /usr/local/bin
 ```
 To run on Linux & MacOS, simply type:
 ```
