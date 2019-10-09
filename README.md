@@ -15,17 +15,18 @@ Both Linux & MacOS:
 chmod +x ztt
 sudo cp ztt /usr/local/bin
 ```
-To run on Linux & MacOS, simply type:
-```
-ztt
-```
 Windows:
 
 To install git on windows https://gitforwindows.org
 ```
 git clone https://github.com/kuttaineh/ztt.git
-ztt/zzt.bash
+echo "ztt/ztt.bash">ztt.bat
 ```
 
-
 ![Git for Windows](gitforwindows.png)
+
+
+To run on Linux, MacOS, & Git for Windows terminal simply type:
+```
+ztt
+```
