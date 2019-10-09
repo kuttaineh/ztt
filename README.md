@@ -1,7 +1,7 @@
 # ztt
 a cross-platform typing tutor which speaks and gives positive feedback
 
-Installation, from a terminal type:
+Installation, from a Linux or MacOS terminal type:
 ```
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
@@ -15,7 +15,7 @@ Both Linux & MacOS:
 chmod +x ztt
 sudo cp ztt /usr/local/bin
 ```
-Windows:
+Installation upon Windows:
 
 To install git on windows https://gitforwindows.org
 After launching Git Bash:
@@ -31,7 +31,7 @@ cp ztt ../bin
 ![Git for Windows](gitforwindows.png)
 
 
-To run on Linux, MacOS, or Git for Windows terminal type:
+To run in a Linux, MacOS, or Git for Windows Bash terminal type:
 ```
 ztt
 ```
