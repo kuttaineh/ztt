@@ -1,1 +1,0 @@
-openapp GSSpeechServer 2>/dev/null & sleep 1; exec bash /home/rocky/ztt/zt.bash
