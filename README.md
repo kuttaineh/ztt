@@ -18,15 +18,20 @@ sudo cp ztt /usr/local/bin
 Windows:
 
 To install git on windows https://gitforwindows.org
+After launching Git Bash:
 ```
+mkdir $HOME/bin
 git clone https://github.com/kuttaineh/ztt.git
-echo "ztt/ztt.bash">ztt.bat
+cd ztt
+echo "bash $HOME/ztt/ztt.bash">ztt
+chmod +x ztt
+cp ztt ../bin
 ```
 
 ![Git for Windows](gitforwindows.png)
 
 
-To run on Linux, MacOS, & Git for Windows terminal simply type:
+To run on Linux, MacOS, or Git for Windows terminal type:
 ```
 ztt
 ```
