@@ -33,9 +33,9 @@ mv ztt ../bin
 ![Git for Windows](gitforwindows.png)
 
 
-#Launch
+# Launch
 
-Same in a Linux, MacOS, or Git for Windows Bash terminal. Simply type:
+Same in a Linux, MacOS, or Git for Windows Bash Terminal. Simply type:
 ```
 ztt
 ```
