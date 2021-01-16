@@ -3,7 +3,7 @@ a cross-platform typing tutor which speaks and gives positive feedback
 
 ## UNIX Installation
 
-#### From a GNU/Linux or macOS terminal type:
+#### From a GNU/Linux or macOS Terminal type:
 ```
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
@@ -20,7 +20,7 @@ sudo cp ztt /usr/local/bin
 ## Windows Installation
 
 If you don't yet have it, first install Git for Windows https://gitforwindows.org
-After launching Git Bash:
+Then, after launching Git Bash:
 ```
 mkdir $HOME/bin
 git clone https://github.com/kuttaineh/ztt.git
