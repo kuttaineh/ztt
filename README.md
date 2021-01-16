@@ -1,23 +1,23 @@
 # ztt
 a cross-platform typing tutor which speaks and gives positive feedback
 
-# UNIX Installation
+## UNIX Installation
 
-From a Linux or MacOS terminal type:
+####From a Linux or MacOS terminal type:
 ```
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
 ```
-MacOS ONLY:
+####MacOS ONLY:
 ```
 echo "bash $HOME/ztt/ztt.bash">ztt
 ```
-Both Linux & MacOS:
+####Both Linux & MacOS:
 ```
 chmod +x ztt
 sudo cp ztt /usr/local/bin
 ```
-# Windows Installation
+## Windows Installation
 
 If you don't yet have it, first install Git for Windows https://gitforwindows.org
 After launching Git Bash:
@@ -32,10 +32,15 @@ mv ztt ../bin
 
 ![Git for Windows](gitforwindows.png)
 
-
-# Launch
+## Launch
 
 Same in a Linux, MacOS, or Git for Windows Bash Terminal. Simply type:
 ```
 ztt
+```
+Realtime user instructions are provided by the program. 
+
+# Quit program
+```
+q
 ```
