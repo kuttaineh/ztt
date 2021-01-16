@@ -34,7 +34,7 @@ mv ztt ../bin
 
 ## Launch
 
-Same in Linux, MacOS, or Git for Windows Git BASH Terminal. Simply type:
+Same in GNU/Linux, macOS, or Git for Windows Git BASH Terminal. Simply type:
 ```
 ztt
 ```
