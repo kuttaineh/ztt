@@ -3,16 +3,16 @@ a cross-platform typing tutor which speaks and gives positive feedback
 
 ## UNIX Installation
 
-#### From a Linux or MacOS terminal type:
+#### From a GNU/Linux or macOS terminal type:
 ```
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
 ```
-#### MacOS ONLY:
+#### macOS ONLY:
 ```
 echo "bash $HOME/ztt/ztt.bash">ztt
 ```
-#### Both Linux & MacOS:
+#### Both GNU/Linux & macOS:
 ```
 chmod +x ztt
 sudo cp ztt /usr/local/bin
