@@ -40,7 +40,7 @@ ztt
 ```
 Realtime user instructions are provided by the program. 
 
-# Quit program
+## Quit program
 ```
 q
 ```
