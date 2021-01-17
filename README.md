@@ -8,6 +8,11 @@ a cross-platform typing tutor which speaks and gives positive feedback
 git clone https://github.com/kuttaineh/ztt.git
 cd ztt
 ```
+
+#### GNU/Linux ONLY:
+```
+ln -s $HOME/ztt/ztt.bash ztt
+```
 #### macOS ONLY:
 ```
 echo "bash $HOME/ztt/ztt.bash">ztt
