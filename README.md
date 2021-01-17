@@ -25,7 +25,7 @@ sudo cp ztt /usr/local/bin
 ## Windows Installation
 
 If you don't yet have it, first install Git for Windows https://gitforwindows.org
-Then, after launching Git BASH:
+Then, after launching Git Bash:
 ```
 mkdir $HOME/bin
 git clone https://github.com/kuttaineh/ztt.git
@@ -39,7 +39,7 @@ mv ztt ../bin
 
 ## Launch
 
-Same in GNU/Linux, macOS, or Git for Windows Git BASH Terminal. Simply type:
+Same in GNU/Linux, macOS, or Git for Windows Git Bash Terminal. Simply type:
 ```
 ztt
 ```
