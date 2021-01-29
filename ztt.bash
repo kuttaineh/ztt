@@ -22,24 +22,24 @@
 	{ RANGE="`wc -l "$1" | awk '{print $1}'`"
 	  let "randline %= $RANGE"; }
 
-	function comm  ## comm is short for communicate ##
+	function utter
 	{ say "$1" & printf "$1"; }
 
 	function instructions
 	{ text="You will be asked to choose a word size."
-	  comm "$text" && sleep 3
+	  utter "$text" && sleep 3
 	  echo; }
 
 	function check  ## provide feedback to user ##
 	{ if [ "$1" == "$2" ]
-	  then comm "Very Good!"; echo;
-	  else comm "Try again later."; echo; fi; }
+	  then utter "Very Good!"; echo;
+	  else utter "Try again later."; echo; fi; }
 
 # What prompt to display:
 
 	prompt="How many letters [ 1 2 3 4 5 or 6 ]? "
 
-comm "Zeke's Typing Tutor" && echo && sleep 3
+utter "Zeke's Typing Tutor" && echo && sleep 3
 request="Type your name"; say $request &
 read -p "$request: "; IMPRINT=$REPLY
 say "Welcome $IMPRINT!"
@@ -55,7 +55,7 @@ randline=$RANDOM
 
 	setrange "$one"
 	oneword="`sed "${randline}q;d" $one`"
-	comm "$oneword"; echo
+	utter "$oneword"; echo
 	read -r -p "  Type the word: "
 	check "$REPLY" "$oneword"
 	;; 		# end case 1
@@ -64,7 +64,7 @@ randline=$RANDOM
 
 	setrange "$two"
 	twoword="`sed "${randline}q;d" $two`"
-	comm "$twoword"; echo
+	utter "$twoword"; echo
 	read -r -p "  Type the word: "
 	check "$REPLY" "$twoword"
 	;;		# end case 2
@@ -73,7 +73,7 @@ randline=$RANDOM
 
 	setrange "$thr"
         threword="`sed "${randline}q;d" $thr`"
-	comm "$threword"; echo
+	utter "$threword"; echo
 	read -r -p " Type the word:    "
 	check "$REPLY" "$threword"
         ;;              # end case 3
@@ -82,7 +82,7 @@ randline=$RANDOM
 
 	setrange "$four"
         fourword="`sed "${randline}q;d" $four`"
-        comm "$fourword"; echo
+        utter "$fourword"; echo
         read -r -p " Type the word:   "
 	check "$REPLY" "$fourword"
         ;;              # end case 4
@@ -91,7 +91,7 @@ randline=$RANDOM
 
 	setrange "$five"
 	fiveword="`sed "${randline}q;d" $five`"
-	comm "$fiveword"; echo
+	utter "$fiveword"; echo
 	read -r -p " Type the word:   "
 	check "$REPLY" "$fiveword"
 	;; 		# end case 5
@@ -100,7 +100,7 @@ randline=$RANDOM
 
         setrange "$six"
         sixword="`sed "${randline}q;d" $six`"
-        comm "$sixword"; echo
+        utter "$sixword"; echo
         read -r -p " Type the word:  "
         check "$REPLY" "$sixword"
 	;;              # end case 6
