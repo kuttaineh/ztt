@@ -25,7 +25,15 @@ mv ztt ~
 
 Installation is now complete. 
 
-Anytime you want to run the software, from the Terminal simply type `~/ztt` or `./ztt` from your [homedir](https://www.computerhope.com/jargon/h/homedir.htm).
+Anytime you want to run the software, from inside a Terminal, simply type
+```
+~/ztt
+``` 
+or
+```
+./ztt
+``` 
+from your [home directory](https://www.computerhope.com/jargon/h/homedir.htm) which is where you start when first you launch Terminal.
 ## Installing to either GNU/Linux or macOS using git
 
 #### From a newly opened GNU/Linux or macOS Terminal type (alternatively: copy from here and paste into Terminal):
