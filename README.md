@@ -9,11 +9,11 @@ a cross-platform typing tutor which speaks and gives positive feedback
 * Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
 * Once downloaded, extract the ZIP archive by clicking on the file: ztt-master.zip which, if you are using Chrome, is found along the bottom of your web browser.
 * Open Terminal. 
-* Type: 
-```cd Downloads/ztt-master```[enter].
-```echo "bash $PWD/ztt.bash">ztt```[enter]. 
-```chmod +x ztt```[enter]. 
-```mv ztt ~```[enter].
+* Type, or: copy and paste each line, one at a time, into the open Terminal window.
+```cd Downloads/ztt-master```
+```echo "bash $PWD/ztt.bash">ztt```
+```chmod +x ztt``` 
+```mv ztt ~```
 
 Installation is now complete. 
 
