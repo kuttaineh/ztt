@@ -9,8 +9,10 @@ a cross-platform typing tutor which speaks and gives positive feedback
 * Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
 * Once downloaded, extract the ZIP archive by clicking on the file: ztt-master.zip which, if you are using Chrome, is found along the bottom of your web browser.
 * Open Terminal. Type: `cd Downloads/ztt-master`[enter]. Type: `echo "bash $PWD/ztt">ztt`[enter]. Type: `chmod +x ztt`[enter]. Type: `mv ztt ~`[enter].
-Installation is now complete. Anytime you want to run the software, from the Terminal simply type `~/ztt` or `./ztt` from your [homedir](https://www.computerhope.com/jargon/h/homedir.htm).
 
+Installation is now complete. 
+
+Anytime you want to run the software, from the Terminal simply type `~/ztt` or `./ztt` from your [homedir](https://www.computerhope.com/jargon/h/homedir.htm).
 ## Installing to GNU/Linux and macOS
 
 #### From a newly opened GNU/Linux or macOS Terminal type (alternatively: copy from here and paste into Terminal):
