@@ -11,13 +11,17 @@ a cross-platform typing tutor which speaks and gives positive feedback
 * Open Terminal. 
 * Type, or: copy and paste each line, one at a time, into the open Terminal window.
 ```
-cd Downloads/ztt-master```
+cd Downloads/ztt-master
 ```
-echo "bash $PWD/ztt.bash">ztt```
 ```
-chmod +x ztt``` 
+echo "bash $PWD/ztt.bash">ztt
 ```
-mv ztt ~```
+```
+chmod +x ztt
+``` 
+```
+mv ztt ~
+```
 
 Installation is now complete. 
 
