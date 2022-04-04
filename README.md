@@ -29,7 +29,7 @@ Set ztt to be executable:
 ```
 chmod +x ztt
 ```
-Create, if it does not exist, the directory /usr/local/bin (does not exist by default under some systems):
+Create, if it does not exist, the directory /usr/local/bin (does not exist by default on some systems):
 ```
 sudo mkdir -p /usr/local/bin
 ```
@@ -40,15 +40,26 @@ sudo mv ztt /usr/local/bin
 ## Windows Installation
 
 If you don't yet have it, first install Git for Windows https://gitforwindows.org
-Then, after launching Git Bash:
+Then, after launching Git Bash, either type or copy/paste each of the following commands into the MINGW64 window as shown in the picture below:
 ```
 mkdir $HOME/bin
+```
+```
 git clone https://github.com/kuttaineh/ztt.git
+```
+```
 cd ztt
+```
+```
 echo "bash $HOME/ztt/ztt.bash">ztt
+```
+```
 chmod +x ztt
+```
+```
 mv ztt ../bin
 ```
+> Question: “What does MINGW64 stand for?” Answer: Minimum GNU for Windows 64-bit edition.
 
 ![Git for Windows](gitforwindows.png)
 
