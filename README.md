@@ -22,9 +22,16 @@ ln -s $HOME/ztt/ztt.bash ztt
 echo "bash $HOME/ztt/ztt.bash">ztt
 ```
 #### Both GNU/Linux & macOS:
+Set ztt to be executable:
 ```
 chmod +x ztt
+```
+Create, if it does not exist, the directory /usr/local/bin (does not exist by default under some systems):
+```
 sudo mkdir -p /usr/local/bin
+```
+Move the shortcut ztt to the directory /usr/local/bin (/usr/local/bin is part of your default PATH):
+```
 sudo mv ztt /usr/local/bin
 ```
 ## Windows Installation
