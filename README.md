@@ -10,6 +10,9 @@ a cross-platform typing tutor which speaks and gives positive feedback
 #### From a newly opened GNU/Linux or macOS Terminal type:
 ```
 git clone https://github.com/kuttaineh/ztt.git
+```
+The above line clones a local copy of this repository on to your computer. The line below enters the ztt repository directory.
+```
 cd ztt
 ```
 
