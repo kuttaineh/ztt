@@ -42,7 +42,7 @@ or
 ```
 ./ztt
 ``` 
-from your [home directory](https://www.computerhope.com/jargon/h/homedir.htm) which is where you start when first you launch Terminal.
+from your [home directory](https://www.computerhope.com/jargon/h/homedir.htm) which is where you start after you launch Terminal.
 
 **Unless you are interested in having [git - the stupid content tracker](https://git-scm.com/docs/git) installed there is no need to read further.**
 ### Installing to either GNU/Linux or macOS using git
