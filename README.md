@@ -8,7 +8,12 @@ a cross-platform typing tutor which speaks and gives positive feedback
 ### To install upon a system without git, or one for which you do not want to install git:
 * Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
 * Once downloaded, extract the ZIP archive by clicking on the file: ztt-master.zip which, if you are using Chrome, is found along the bottom of your web browser.
-* Open Terminal. Type: `cd Downloads/ztt-master`[enter]. Type: `echo "bash $PWD/ztt">ztt`[enter]. Type: `chmod +x ztt`[enter]. Type: `mv ztt ~`[enter].
+* Open Terminal. 
+* Type: 
+```cd Downloads/ztt-master```[enter].
+```echo "bash $PWD/ztt.bash">ztt```[enter]. 
+```chmod +x ztt```[enter]. 
+```mv ztt ~```[enter].
 
 Installation is now complete. 
 
