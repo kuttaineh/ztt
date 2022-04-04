@@ -24,7 +24,7 @@ With the line
 Save and close.
 
 * Open Terminal. 
-* Type, or: copy and paste each line, one at a time, into the open Terminal window — making sure to type the [return] key at the conclusion of each line.
+* Type, or: copy and paste each of the following two command lines, one at a time, into the open Terminal window — making sure to type the [return] key at the conclusion of each line.
 ```
 echo "bash Downloads/ztt-master/ztt.bash">ztt
 ```
