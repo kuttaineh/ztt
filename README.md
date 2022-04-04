@@ -3,7 +3,7 @@ a cross-platform typing tutor which speaks and gives positive feedback
 
 ## Installation Note
 
-> Having git is not necessary; one can download this respository as an archive ztt-master.zip, extract it and run Zeke's Typing Tutor directly. These instructions are written for someone interested in not only ztt but also in software development. Under macOS you can install git simply by typing git[return] as demonstrated in [this video](https://youtu.be/PSULlxUk744).
+> Having git is not necessary; one can download this respository as an archive ztt-master.zip, extract it and run Zeke's Typing Tutor directly. The later half of these instructions are written for someone interested in not only ztt but also in software development. Under macOS you can install git simply by typing git[return] as demonstrated in [this video](https://youtu.be/PSULlxUk744).
 
 ### To install upon a system without git, or one for which you do not want to install git:
 * Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
@@ -43,7 +43,9 @@ or
 ./ztt
 ``` 
 from your [home directory](https://www.computerhope.com/jargon/h/homedir.htm) which is where you start when first you launch Terminal.
-## Installing to either GNU/Linux or macOS using git
+
+**Unless you are interested in having [git - the stupid content tracker](https://git-scm.com/docs/git) installed there is no need to read further.**
+### Installing to either GNU/Linux or macOS using git
 
 #### From a newly opened GNU/Linux or macOS Terminal type (alternatively: copy from here and paste into Terminal):
 ```
