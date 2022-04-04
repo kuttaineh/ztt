@@ -9,12 +9,18 @@ a cross-platform typing tutor which speaks and gives positive feedback
 * Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
 * Extract the ZIP archive by clicking on the file: ztt-master.zip which, if you are using Chrome, is found along the bottom of your web browser.
 * Open Finder.
-** Browse to Downloads.
-*** Open the ztt-master folder.
-**** Open ztt.bash with TextEdit
+* * Browse to Downloads.
+* * Open the ztt-master folder.
+* * Open ztt.bash with TextEdit
 
-Replace the line `	dfl="$HOME/ztt"`
-With the line `	dfl="$HOME/Downloads/ztt-master"`
+Replace the line 
+```
+	dfl="$HOME/ztt"
+```
+With the line 
+```
+	dfl="$HOME/Downloads/ztt-master"
+```
 Save and close.
 
 * Open Terminal. 
