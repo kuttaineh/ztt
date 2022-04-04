@@ -6,10 +6,10 @@ a cross-platform typing tutor which speaks and gives positive feedback
 > Having git is not necessary; one can download this respository as an archive ztt.zip, extract it and run Zeke's Typing Tutor directly. These instructions are written for someone interested in not only ztt but also in software development. Under macOS you can install git simply by typing git[return] as demonstrated in [this video](https://youtu.be/PSULlxUk744).
 
 ### To install upon a system without git, or one for which you do not want to install git:
-* Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt): select Download ZIP.
+* Click the green Code button on the upper-right quadrant of [this page](https://github.com/kuttaineh/ztt) and select Download ZIP.
 * Once downloaded, extract the ZIP archive by clicking on the file: ztt-master.zip which, if you are using Chrome, is found along the bottom of your web browser.
 * Open Terminal. Type: `cd Downloads/ztt-master`[enter]. Type: `echo "bash $PWD/ztt">ztt`[enter]. Type: `chmod +x ztt`[enter]. Type: `mv ztt ~`[enter].
-Installation is now complete. Anytime you want to run the software, from the Terminal simply type `~/ztt` or `./ztt` from your default home directory.
+Installation is now complete. Anytime you want to run the software, from the Terminal simply type `~/ztt` or `./ztt` from your [homedir](https://www.computerhope.com/jargon/h/homedir.htm).
 
 ## Installing to GNU/Linux and macOS
 
