@@ -33,6 +33,8 @@ Create, if it does not exist, the directory /usr/local/bin (does not exist by de
 ```
 sudo mkdir -p /usr/local/bin
 ```
+The above line will prompt for your login password. That is expected behavior. Provide your password to continue.
+
 Move the shortcut ztt to the directory /usr/local/bin (/usr/local/bin is part of your default PATH):
 ```
 sudo mv ztt /usr/local/bin
