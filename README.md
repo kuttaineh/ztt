@@ -7,7 +7,7 @@ a cross-platform typing tutor which speaks and gives positive feedback
 
 ## Installing to GNU/Linux and macOS
 
-#### From a newly opened GNU/Linux or macOS Terminal type:
+#### From a newly opened GNU/Linux or macOS Terminal type (alternatively: copy from here and paste into Terminal):
 ```
 git clone https://github.com/kuttaineh/ztt.git
 ```
