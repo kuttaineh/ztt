@@ -44,7 +44,7 @@ or
 ``` 
 from your [home directory](https://www.computerhope.com/jargon/h/homedir.htm) which is where you start after you launch Terminal.
 
-**Unless you are interested in having [git - the stupid content tracker](https://git-scm.com/docs/git) installed, there is no need to read further.**
+**Unless you are interested in having [git - the stupid content tracker](https://git-scm.com/docs/git) installed or seek to install on Windows, then proceed to the Usage section.**
 ### Installing to either GNU/Linux or macOS using git
 
 #### From a newly opened GNU/Linux or macOS Terminal type (alternatively: copy from here and paste into Terminal):
