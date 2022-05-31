@@ -11,7 +11,7 @@ a cross-platform typing tutor which speaks and gives positive feedback
 * Open Finder.
 * * Browse to Downloads.
 * * Open the ztt-master folder.
-* * Open ztt.bash with TextEdit
+* * Open ztt.bash with TextEdit (or if using Windows: WordPad)
 
 Replace the line 
 ```
