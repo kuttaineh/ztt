@@ -36,15 +36,11 @@
 	  else utter "Try again later."; echo; fi; }
 
 	function presentWord  ## presents a random word from a given word file
-    { if [[ -n "$1" ]]; then
-		setrange "$1"
-		word="`sed "${randline}q;d" $1`" # pull a word
-		utter "$word"; echo
-		read -r -p "  Type the word: "
-		check "$REPLY" "$word"
-	  else
-		echo "Error: Wordfile specified does not exist."
- 	  fi }
+	{ setrange "$1"
+	  word="`sed "${randline}q;d" $1`" # pull a word      
+	  utter "$word"; echo
+	  read -r -p "    Type the word: "
+	  check "$REPLY" "$word"; }
 
 # What prompt to display:
 
@@ -62,12 +58,12 @@ while read -n1 -s -p "$prompt "; do
 randline=$RANDOM
 
   case $REPLY in
-    1) echo; echo -n "One letter word: "; presentWord "$oneletterfile";;
-    2) echo; echo -n "Two letter word: "; presentWord "$two";;
+    1) echo; echo -n "  One letter word: "; presentWord "$oneletterfile";;
+    2) echo; echo -n "  Two letter word: "; presentWord "$two";;
     3) echo; echo -n "Three letter word: "; presentWord "$thr";;
-    4) echo; echo -n "Four letter word: "; presentWord "$four";;
-    5) echo; echo -n "Five letter word: "; presentWord "$five";;
-    6) echo; echo -n "Six letter word: "; presentWord "$six";;
+    4) echo; echo -n " Four letter word: "; presentWord "$four";;
+    5) echo; echo -n " Five letter word: "; presentWord "$five";;
+    6) echo; echo -n "  Six letter word: "; presentWord "$six";;
     q) say "Goodbye!"; echo "Goodbye!"; break;;
     *) say "$IMPRINT, what?";;
   esac
