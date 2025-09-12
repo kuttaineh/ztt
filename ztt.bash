@@ -35,16 +35,16 @@
 	  then utter "Very Good!"; echo;
 	  else utter "Try again later."; echo; fi; }
 
-        function presentWord
-        { if [[ -n "$1" ]]; then
-                setrange "$1"
-                word="`sed "${randline}q;d" $1`" # pull a word
-                utter "$word"; echo
-                read -r -p "  Type the word: "
-                check "$REPLY" "$word"
-          else
-                echo "Error: Wordfile $1 not found."
-          fi }
+	function presentWord  ## presents a random word from a given word file
+    { if [[ -n "$1" ]]; then
+		setrange "$1"
+		word="`sed "${randline}q;d" $1`" # pull a word
+		utter "$word"; echo
+		read -r -p "  Type the word: "
+		check "$REPLY" "$word"
+	  else
+		echo "Error: Wordfile specified does not exist."
+ 	  fi }
 
 # What prompt to display:
 
